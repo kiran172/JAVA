@@ -1,0 +1,22 @@
+class Student{
+int rollno;
+String name;
+float fee;
+Student(int rollno,String name,float fee){
+this.rollno=rollno;
+this.name=name;
+this.fee=fee;
+}
+void display()
+{
+System.out.println(rollno+" "+name+" "+fee);
+}
+}
+public class this_keyword{
+public static void main(String[]args){
+Student y1=new Student(129,"kiran",0f);
+Student y2=new Student(161,"ujjwal",70000f);
+y1.display();
+y2.display();
+}
+}
