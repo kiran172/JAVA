@@ -1,0 +1,13 @@
+class Student_varargs{
+static void display(int num,String...values)
+{
+System.out.println("number is "+num);
+for(String s:values){
+System.out.println(s);
+}
+}
+public static void main(String[]args){
+display(1,"java");
+display(2,"It","is","superb","programming","language");
+}
+}
